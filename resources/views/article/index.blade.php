@@ -13,4 +13,6 @@
         </h2>
         <div>{{Str::limit($article->body, 200)}}</div>
     @endforeach
+    <br>
+    {{ $articles->links() }}
 @endsection
